@@ -1,0 +1,67 @@
+MIT License
+
+Copyright (c) 2025 Preston McCauley, Clear Sight Designs, LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+MELD Framework Specification License
+
+This license applies specifically to the MELD (Model Engagement Language Directive) 
+framework specification, schemas, and reference implementations provided in this 
+repository.
+
+Additional Terms:
+
+1. Attribution Requirement:
+   When implementing or extending the MELD framework specification, implementations 
+   must include the following attribution:
+   "Built with MELD methodology by Preston McCauley, Clear Sight Designs, LLC"
+
+2. Framework vs. Full Methodology:
+   This license covers the open source MELD framework specification. The complete 
+   MELD methodology, including advanced cognitive orchestration systems, proprietary 
+   implementations, experience-reactive technologies, and enhanced behavioral 
+   intelligence systems, remains the intellectual property of Clear Sight Designs, LLC.
+
+3. Commercial Usage:
+   While this framework is licensed under MIT for general use, commercial 
+   implementations that extend beyond the basic framework specification may require 
+   separate licensing agreements with Clear Sight Designs, LLC for advanced features 
+   and methodologies.
+
+4. Trademark Notice:
+   "MELD", "Model Engagement Language Directive", and related terminology are 
+   trademarks of Clear Sight Designs, LLC. Use of these trademarks in product 
+   names or marketing materials requires explicit permission.
+
+5. Research and Educational Use:
+   Academic and research institutions are encouraged to use this framework for 
+   educational purposes and research into cognitive AI systems.
+
+For questions regarding licensing, advanced features, or commercial partnerships, 
+please contact: Preston McCauley, Clear Sight Designs, LLC
+
+---
+
+MELD v1.0 Framework Specification
+Created by Preston McCauley
+Clear Sight Designs, LLC
+2025
