@@ -1,3 +1,5 @@
+![MELD Framework](./meld_teaser.png)
+
 # MELD v1.0 - Model Engagement Language Directive
 ## A Cognitive Control Methodology for Adaptive AI
 
@@ -802,3 +804,162 @@ class QuantumMELDProcessor {
 ---
 
 **For complete implementation examples, advanced features, and production deployment guides, visit the MELD repository or contact Clear Sight Designs, LLC.**
+
+
+🚀 MELD + Ollama Demo Setup
+Experience MELD cognitive control in action with this interactive demo that runs locally using Ollama.
+
+🔧 Prerequisites
+Python 3.8+ installed on your system
+Terminal/Command Prompt access
+Internet connection for initial setup
+📥 Installation Steps
+1. Install Ollama
+Choose your platform:
+
+🐧 Linux & 🍎 macOS:
+
+bash
+curl -fsSL https://ollama.ai/install.sh | sh
+🪟 Windows:
+
+Download from ollama.ai
+Run the installer
+Or use PowerShell: iwr -useb https://ollama.ai/install.ps1 | iex
+2. Start Ollama Service
+bash
+ollama serve
+Keep this terminal window open - Ollama needs to stay running
+
+3. Download AI Model
+In a new terminal window:
+
+bash
+ollama pull llama3.1
+This downloads ~4.7GB - may take a few minutes
+
+4. Install Python Dependencies
+bash
+pip install requests pydantic rich
+Or using the requirements file:
+
+bash
+pip install -r requirements.txt
+5. Run the MELD Demo
+bash
+python meld_ollama_demo.py
+🎭 What You'll Experience
+The demo provides three modes to explore MELD cognitive control:
+
+📋 Demo Queries Mode
+Pre-built examples showcasing:
+
+Different Personas: See Strategist, Explorer, Sage in action
+Intent Recognition: Watch the AI detect your goals
+Cognitive Adaptation: Observe thinking style changes
+Emotional Calibration: See how AI adjusts its emotional approach
+💬 Interactive Chat Mode
+Try your own questions and watch MELD:
+
+Choose appropriate cognitive personas
+Adapt emotional states to context
+Select optimal behavioral approaches
+Show transparent thinking processes
+📊 Performance Analytics
+Monitor MELD's effectiveness:
+
+Success rates and confidence levels
+Processing speed and fallback usage
+Experience tracking and adaptation
+🎯 Understanding the Output
+Each MELD response shows:
+
+┌─ 👤 Your Question ────────────────────────────┐
+│ Your question appears here                     │
+└────────────────────────────────────────────────┘
+
+┌─ 🤔 Explorer | Intent: solve_problem ─────────┐  ← Border color = response speed
+│ AI's natural language response...              │
+│                                               │
+│ 🎯 Intent Detection: Why this intent was      │
+│    detected from your question                │
+│                                               │
+│ 🎭 Emotional State: Curious + Focus           │
+│ (Intensity:0.90 Mood:0.70 Energy:0.80)       │
+│                                               │
+│ 🧠 Cognitive Approach: EXPLORE                │
+│ Goal: what the AI is trying to achieve        │
+│ Explanation of this thinking style            │
+│                                               │
+│ ⚙️  Cognitive Actions:                         │
+│    🧠 Cognitive Shift → thinking_mode = lateral │
+│       (changing thinking style)               │
+│    ⚡ State → focus_level = high              │
+│       (adjusting mental state)               │
+│                                               │
+│ 📊 Confidence: 0.90 (Very High)              │
+│ ⏱️  Processing: 2.1s                          │
+└───────────────────────────────────────────────┘
+Border Color Meanings:
+🟢 Green: Fast response (< 2s)
+🔵 Cyan: Normal response (2-5s)
+🟡 Yellow: Slower response (5-10s)
+🔴 Red: Very slow response (> 10s)
+🔴 Bright Red: Fallback mode (processing failed)
+🛠️ Troubleshooting
+Ollama Connection Issues
+bash
+# Check if Ollama is running
+curl http://localhost:11434/api/tags
+
+# Restart Ollama if needed
+pkill ollama
+ollama serve
+Model Not Found
+bash
+# List available models
+ollama list
+
+# Pull required model
+ollama pull llama3.1
+Python Package Issues
+bash
+# Upgrade pip first
+pip install --upgrade pip
+
+# Install with verbose output
+pip install -v requests pydantic rich
+Permission Issues (Linux/macOS)
+bash
+# Use user installation
+pip install --user requests pydantic rich
+🔍 System Requirements
+Minimum:
+
+RAM: 8GB (model runs in memory)
+Storage: 5GB free space
+CPU: Modern multi-core processor
+Recommended:
+
+RAM: 16GB+ for optimal performance
+Storage: 10GB+ free space
+CPU: Recent Intel/AMD/Apple Silicon
+📝 Usage Tips
+Start with Demo Mode to see MELD's capabilities
+Try different question types to see persona switching
+Use the help command for detailed explanations
+Watch the border colors to understand processing speed
+Check stats regularly to see MELD learning and adapting
+⚠️ Notes
+First responses may be slower while the model loads
+Fallback mode demonstrates resilience when parsing fails
+This is an educational implementation - the complete MELD methodology includes advanced features
+Created by Preston McCauley - Clear Sight Designs, LLC
+🎯 Next Steps
+After exploring the demo:
+
+Read the full MELD documentation to understand the methodology
+Explore implementing MELD in your own AI systems
+Consider the advanced MELD features for production use
+Experience AI that doesn't just respond - but consciously chooses HOW to think about your questions.
+
