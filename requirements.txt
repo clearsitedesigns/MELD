@@ -1,0 +1,16 @@
+# MELD + Ollama Demo Requirements
+# Created by Preston McCauley - Clear Sight Designs, LLC
+# Make sure to install ollama locally or use a hosted service
+
+# Core dependencies for MELD cognitive control
+requests>=2.31.0        # HTTP requests to Ollama API
+pydantic>=2.0.0         # Data validation and MELD schema enforcement
+rich>=13.0.0           # Beautiful terminal UI and formatting
+
+# Optional but recommended
+typing-extensions>=4.7.1  # Enhanced type hints for better code quality
+
+# Development dependencies (optional - uncomment if developing)
+# pytest>=7.4.0         # Testing framework
+# black>=23.7.0         # Code formatting
+# mypy>=1.5.0           # Type checking
